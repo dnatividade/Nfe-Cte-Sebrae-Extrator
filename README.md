@@ -1,4 +1,4 @@
-# NF-e SEBRAE Extrator
+# Emissor NF-e SEBRAE Extrator
 
 ### Extrair NF-e do database do Emissor SEBRAE (NF-e 4.01)
 Software para extrair os XML que estão na pasta database do antigo sistema de emissão de NF-e do SEBRAE (NF-e 4.01).
