@@ -57,8 +57,11 @@ A consulta ao banco de dados é realizada utilizando **jdbc + derby.jar**.
 Os fontes estão no diretório ./NFe/.
 O nome do banco utilizado pelo Emissor do SEBRAE é **NFE**. A tabela que contém as NF-e chama-se **NOTA_FISCAL** e o cadastro dos emitentes estão na tabela **EMITENTE**.
 Os XMLs que estão no banco de dados estão zipados e ao baixa-los, serão salvos no diretório ./NFE_ZIP/ (que será criado caso não exista).
+
 Os arquivos zip são salvos, um a um, com o seguinte nome: [numeroSequencial_DOCUMENTO_EMIT_SERIE-NUMERO.zip]
+
 No qual: *DOCUMENTO_EMIT* é o **CPF** ou **CNPJ** do emitente da NF-e, *SERIE* é o número de série da NF-e e *NUMERO* é o número da NF-e emitida.
+
 Ex:. `1_22222222222_001-000000001.zip, 2_33333333333333_001-000000012.zip, ..., 125_22222222222_007-000011026.zip`
 
 **CT-e Extrator**
@@ -66,8 +69,11 @@ Ex:. `1_22222222222_001-000000001.zip, 2_33333333333333_001-000000012.zip, ..., 
 Os fontes estão no diretório ./NFe/.
 O nome do banco utilizado pelo Emissor do SEBRAE é **CTE**. A tabela que contém os CT-e chama-se **CONHECIMENTO_TRANSPORTE** e o cadastro dos emitentes estão na tabela **EMITENTE**.
 Os XMLs que estão no banco de dados estão zipados e ao baixa-los, serão salvos no diretório ./CTE_ZIP/ (que será criado caso não exista).
+
 Os arquivos zip são salvos, um a um, com o seguinte nome: [numeroSequencial_DOCUMENTO_EMIT_SERIE-NUMERO.zip]
+
 No qual: *DOCUMENTO_EMIT* é o **CNPJ** do emitente do CT-e, *SERIE* é o número de série do CT-e e *NUMERO* é o número do CT-e emitido.
+
 Ex:. `1_22222222222222_001-000000001.zip, 2_33333333333333_001-000000012.zip, ..., 125_22222222222222_007-000011026.zip`
 
 
