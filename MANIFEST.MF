@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: ExtractNfeZipGUI
-Class-Path: derby-10_16_1_1/lib/derby.jar
-
