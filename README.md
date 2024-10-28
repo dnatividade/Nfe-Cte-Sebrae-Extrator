@@ -1,4 +1,4 @@
-# Emissor NF-e SEBRAE Extrator
+# Emissor NF-e/CT-e SEBRAE Extrator
 
 ![tela-inicial](img.png)
 
@@ -19,6 +19,7 @@ Para extrair uma lista com informações sobre NF-e/CT-e, clique no botão [3].
 
 ### Como usar
 **NF-e Extrator**
+
 _NO LINUX_
 ```
 Via linha de comando, entre no diretório ./NFe/
@@ -32,6 +33,7 @@ Execute o script: compile_run.cmd
 ```
 
 **CT-e Extrator**
+
 _NO LINUX_
 ```
 Via linha de comando, entre no diretório ./CTe/
@@ -49,6 +51,7 @@ O banco de dados utilizado pelo Emissor do SEBRAE é o *Apache Derby Embedded*.
 A consulta ao banco de dados é realizada utilizando **jdbc + derby.jar**.
 
 **NF-e Extrator**
+
 Os fontes estão no diretório ./NFe/.
 O nome do banco utilizado pelo Emissor do SEBRAE é **NFE**. A tabela que contém as NF-e chama-se **NOTA_FISCAL** e o cadastro dos emitentes estão na tabela **EMITENTE**.
 Os XMLs que estão no banco de dados estão zipados e ao baixa-los, serão salvos no diretório ./NFE_ZIP/ (que será criado caso não exista).
@@ -57,6 +60,7 @@ No qual: *DOCUMENTO_EMIT* é o **CPF** ou **CNPJ** do emitente da NF-e, *SERIE* 
 Ex:. `1_22222222222_001-000000001.zip, 2_33333333333333_001-000000012.zip, ..., 125_22222222222_007-000011026.zip`
 
 **CT-e Extrator**
+
 Os fontes estão no diretório ./NFe/.
 O nome do banco utilizado pelo Emissor do SEBRAE é **CTE**. A tabela que contém os CT-e chama-se **CONHECIMENTO_TRANSPORTE** e o cadastro dos emitentes estão na tabela **EMITENTE**.
 Os XMLs que estão no banco de dados estão zipados e ao baixa-los, serão salvos no diretório ./CTE_ZIP/ (que será criado caso não exista).
