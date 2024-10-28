@@ -1,6 +1,8 @@
 # NF-e/CT-e SEBRAE Extrator
 
-![tela-inicial](logo.png)
+<div align="center">
+    ![tela-inicial](logo.png)
+</div>
 
 ### Extrair NF-e e CT-e do database do Emissor SEBRAE (NF-e 4.01 e CT-3 3.00)
 Software para extrair os XML que estão na pasta database do antigo sistema de emissão de NF-e e CT-e do SEBRAE (NF-e 4.01 e CT-e 3.00).
