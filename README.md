@@ -32,6 +32,8 @@ _NO WINDOWS_
 ```
 Via linha de comando, entre no diretório .\NFe\
 Execute o script: compile_run.cmd
+
+OBS.: É necessario ter o diretorio "\Program Files\Java\jdk-XX\bin" no PATH do sistema
 ```
 
 **CT-e Extrator**
@@ -46,6 +48,8 @@ _NO WINDOWS_
 ```
 Via linha de comando, entre no diretório .\CTe\
 Execute o script: compile_run.cmd
+
+OBS.: É necessario ter o diretorio "\Program Files\Java\jdk-XX\bin" no PATH do sistema
 ```
 
 ### Detalhes técnicos
